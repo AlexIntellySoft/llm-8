@@ -1,0 +1,20 @@
+# окружение
+.venv/
+__pycache__/
+*.py[cod]
+
+# локальный smoke-прогон (Qwen3-VL-2B на Mac) — не результат задания
+notebooks/omni_assistant_smoke.ipynb
+outputs_smoke/
+
+# сгенерированные ответы ассистента: в git только итоговые по тестовым парам
+outputs/answers/*
+!outputs/answers/answer_*.wav
+
+# кэши, IDE и системный мусор
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+*.log
+*.zip

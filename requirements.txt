@@ -1,0 +1,23 @@
+# Пайплайн (в Colab torch уже установлен; bitsandbytes нужен только там — 4-bit требует CUDA)
+torch>=2.6
+torchvision           # нужен qwen-vl-utils
+transformers==5.22.0
+accelerate==1.15.0
+bitsandbytes==0.50.2; sys_platform == "linux"
+qwen-vl-utils>=0.0.14
+openai-whisper>=20250625
+omegaconf>=2.3          # нужен silero_tts через torch.hub
+noisereduce>=3.0
+soundfile>=0.13
+scipy>=1.13
+num2words>=0.5.14
+jiwer>=4.0
+gradio>=6.0
+playwright>=1.50        # автоскриншот интерфейса
+
+# Отчёт
+pandas>=2.2
+matplotlib>=3.8
+nbformat>=5.10
+nbconvert>=7.16
+ipykernel>=6.29
