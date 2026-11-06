@@ -1,0 +1,24 @@
+{
+  "vlm": "Qwen/Qwen3-VL-8B-Instruct",
+  "gpu": "Tesla T4",
+  "mean_total_s": 6.3,
+  "mean_asr_s": 0.54,
+  "mean_vlm_s": 5.72,
+  "mean_tts_s": 0.04,
+  "slowest_stage": "VLM (Qwen3-VL)",
+  "vlm_tokens_per_s": 7.8,
+  "cold_start_s": 6.5,
+  "stream_ttfa_s": 4.59,
+  "clean_wer": 0.018,
+  "cafe_wer_by_snr": {
+    "20": 0.02,
+    "10": 0.08,
+    "5": 0.26,
+    "0": 3.39,
+    "-5": 3.98
+  },
+  "answers_on_topic": "4/5",
+  "ocr_default_budget": 1024,
+  "ocr_min_font_px_90pct": 7,
+  "label_answer": "Срок годности до 14.11.2026. Сахар в нём — 11,0 грамм."
+}

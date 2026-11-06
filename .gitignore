@@ -7,9 +7,9 @@ __pycache__/
 notebooks/omni_assistant_smoke.ipynb
 outputs_smoke/
 
-# сгенерированные ответы ассистента: в git только итоговые по тестовым парам
-outputs/answers/*
-!outputs/answers/answer_*.wav
+# одноразовые ответы из Gradio и прогрева
+outputs/answers/reply_*.wav
+outputs/answers/warmup.wav
 
 # кэши, IDE и системный мусор
 .ipynb_checkpoints/
